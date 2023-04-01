@@ -3,7 +3,7 @@ public class Point {
     private int y;
     private String label;
 
-    public Point(int xVal, int yVal, String labelVal) {
+    public Point(String labelVal ,int xVal, int yVal) {
         x = xVal;
         y = yVal;
         label = labelVal;
